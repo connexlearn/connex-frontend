@@ -5,6 +5,7 @@ function App() {
   <>
   
   <h1>hello kp </h1>
+  <h2>hello world</h2>
   
   </>
   );
