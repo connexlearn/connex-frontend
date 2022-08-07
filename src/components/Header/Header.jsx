@@ -26,10 +26,13 @@ const navLinks = [
 const Header = () =>
 {
   return (
+    <header className='header'>
     <Container>
-        <div className="navigation">
+        <div className="navigation d-flex align-items-center justify-content-between">
             <div className="logo">
-                <h2><i class="ri-pantone-line"></i>conneXlearn</h2>
+            <h2 className=" d-flex align-items-center gap-1">
+              <i class="ri-pantone-line"></i> ConnexLearn.
+            </h2>
             </div>
             <div className="nav">
                 <div className="nav_menu">
@@ -45,6 +48,7 @@ const Header = () =>
             </div>
         </div>
     </Container>
+    </header>
   );
   
 };
