@@ -1,8 +1,20 @@
+
+
+body{
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  
+  color: rgb(179, 109, 6) !important;
+  font-family: 'Centra', sans-serif !important;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
+  max-width: 5%;
   height: 40vmin;
   pointer-events: none;
 }
@@ -12,6 +24,8 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+ 
+
 
 .App-header {
   background-color: #282c34;
