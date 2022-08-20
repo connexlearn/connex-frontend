@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import { Container } from "reactstrap";
 import './header.css'
 
-
+import logo from './images/logo1.png'
 
 
 const Header = () =>
@@ -33,10 +33,10 @@ const Header = () =>
   return (
     <header className='header'>
     <Container>
-        <div className="navigation d-flex align-items-center ">
+        <div className="navigation d-flex align-items-center "> 
             <div className="logo">
             <h2 className=" d-flex align-items-center gap-1">
-              <i class="ri-pantone-line"></i> ConnexLearn.
+              <i class="ri-pantone-line absolute"></i><img src={logo} className="logo" alt="" />
             </h2>
             </div>
             
@@ -44,7 +44,7 @@ const Header = () =>
           <ion-icon name={open ? 'close':'menu'}></ion-icon>
           </div>
 
-            <div className="nav">
+            <div className="nav ms-md-5">
                 <div className="nav_menu">
                     <ul className={`md:flex md:items-center md:pb-0 pb-12 md:mt-0 mt-1 absolute  md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 
                      transition-all-duration-500 ease-in ${open ? 'top-20 opacity-100':'top-[-490px] '} `}>
