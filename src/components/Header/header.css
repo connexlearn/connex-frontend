@@ -12,15 +12,21 @@
     color: rgb(109, 130, 130)
 }
 
+body{
+    background-image: linear-gradient(to right, #c7cccd, #cacfd0, #ccd2d4, #cfd6d7, #d2d9db, #d7dddf, #dce1e4, #e1e5e8, #e9ebee, #f1f2f4, #f8f8f9, #ffffff);
+}
 .header {
     line-height: 70px;
-   background-image: linear-gradient(to right top, #08dce5, #63e3e8, #8deaeb, #b0f1f0, #cef7f5, #d3f3f1, #d7efed, #dbebe9, #c8dcda, #b6cdca, #a4bebc, #92afad);
-}
 
+}
 .my_account{
-   margin-left: 150px;
+   margin-left: 50px;
+   background-color: blue;
 }
 
+.logo{
+    width: 250px;
+}
 
 /* this is for large screen */
 @media (min-width: 768px) {
@@ -48,7 +54,6 @@
 .my_account{
     color: wheat;
     border-radius: 40px;
-    background-image: linear-gradient(to right top, #293939, #2c3b3b, #2f3e3d, #334040, #364342, #324a47, #2d514b, #28584e, #18654d, #127145, #227d37, #3a871e);
 }
 
  }
