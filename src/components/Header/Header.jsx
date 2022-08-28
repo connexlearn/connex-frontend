@@ -17,13 +17,13 @@ const Header = () =>
         display:'Events',
         url:'#'
     },{
-        display:'Community',
+        display:'Blogs',
         url:'#'
     },{
         display:'Course',
         url:'#'
     },{
-        display:'Blogs',
+        display:'Community',
         url:'#'
     },
 ];
@@ -31,7 +31,7 @@ const Header = () =>
   let [open,setOpen]=useState(false);
 
   return (
-    <header className='header'>
+    <header className={open ? "header mb-80":"header "}>
     <Container>
         <div className="navigation d-flex align-items-center "> 
             <div className="logo">
@@ -47,18 +47,18 @@ const Header = () =>
             <div className="nav ms-md-5">
                 <div className="nav_menu">
                     <ul className={`md:flex md:items-center md:pb-0 pb-12 md:mt-0 mt-1 absolute  md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 
-                     transition-all-duration-500 ease-in ${open ? 'top-20 opacity-100':'top-[-490px] '} `}>
+                     transition-all-duration-500 ease-in ${open ? 'top-20 opacity-100 mk':'top-[-490px] '} `}>
                     {navLinks.map((item, index) => (
-                  <li key={index} className="nav__item">
-                    <a href={item.url}  className="text">{item.display} </a>
+                  <li key={index} className="nav__item mk">
+                    <a href={item.url}  className={open ? "text-white":"text "}>{item.display} </a>
                   </li>
                 ))}
 
                 <li>
-                <button className='btn d-flex d-md-none'>
+                <button className='btn bg-danger text-white d-flex d-md-none'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-          </svg> <span className='ms-1'>My Account</span></button>
+          </svg> <span className='ms-1  '>My Account</span></button>
                 </li>
               
                     </ul>

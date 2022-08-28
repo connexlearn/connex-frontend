@@ -12,11 +12,12 @@
     color: rgb(109, 130, 130)
 }
 
-body{
+/* body{
+    background-color: aqua;
     background-image: linear-gradient(to right, #c7cccd, #cacfd0, #ccd2d4, #cfd6d7, #d2d9db, #d7dddf, #dce1e4, #e1e5e8, #e9ebee, #f1f2f4, #f8f8f9, #ffffff);
-}
+} */
 .header {
-    line-height: 70px;
+    line-height: 50px;
 
 }
 .my_account{
@@ -71,7 +72,7 @@ body{
     }
 
     .logo{
-        margin-top: 20px;
+        margin-top: 8px;
     }
 
     .nav__item a {
@@ -82,4 +83,9 @@ body{
         transition: .3s;
         padding: 20px;
     }
+    .mk{
+        background-color:rgb(76, 57, 128);
+      border-radius: 10px;
+    }
+
 }
