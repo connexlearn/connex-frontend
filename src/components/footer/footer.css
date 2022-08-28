@@ -1,0 +1,15 @@
+
+.footer{
+    color: black;
+    background-image: url('images/footer-bg.png');
+    height: auto;
+
+}
+
+.logo{
+    width: 300px;
+}
+
+.social{
+    width: 45px;
+}
