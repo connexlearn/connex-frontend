@@ -13,3 +13,10 @@
 .social{
     width: 45px;
 }
+.submitButton{
+    background-color: rgb(110, 90, 230) ;
+
+}
+.submitButton:hover{
+    background-color: rgb(113, 113, 214);
+}
