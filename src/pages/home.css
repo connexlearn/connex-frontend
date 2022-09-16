@@ -8,6 +8,12 @@
 
 }
 
+.heading1:hover{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    
+}
+
 .heading:hover{
     /* box-shadow: " 0 5px 15px rgba(0, 0, 0, 0.2)"; */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);

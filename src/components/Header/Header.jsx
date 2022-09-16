@@ -39,40 +39,27 @@ const Header = () =>
           <Nav className="me-auto" style={{gap:"15px" }} >
             <Nav.Link >
               <b component={NavLink} to="/" className='navitems' >
-                Home
+                Events
               </b>
             </Nav.Link>
-            <NavDropdown 
-              title={<b  >About</b>}
-              id="basic-nav-dropdown"
-            >
-              <NavDropdown.Item>
-                <b component={Link} to="#"className='navitems' >
-                  Main Page
-                </b>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <b
-                  component={NavLink}
-                  to="#"
-                  className='navitems'
-                >
-                  Organization
-                </b>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <b component={NavLink} to="#" className='navitems'>
-                  Contact
-                </b>
-              </NavDropdown.Item>
-            </NavDropdown>
             <Nav.Link >
-              <b component={NavLink} to="#" className='navitems' >
-                Join Us
+              <b component={NavLink} to="/" className='navitems' >
+                Community
               </b>
             </Nav.Link>
             
+            <Nav.Link >
+              <b component={NavLink} to="#" className='navitems' >
+                Free Tutorials
+              </b>
+            </Nav.Link>
+            <Nav.Link >
+              <b component={NavLink} to="/" className='navitems' >
+                Course
+              </b>
+            </Nav.Link>
           </Nav>
+          
           <Nav>
               <Nav.Link >
               <Button
