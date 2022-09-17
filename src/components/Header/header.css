@@ -1,80 +1,10 @@
-
-/* write css here for all devices */
-
-
-
-
-.nav__item a:hover {
-    color: rgb(21, 136, 230);
-
+.accountbutton{
+    background-color:  rgb(110, 90, 230);
 }
-.nav__item .text {
-    color: rgb(109, 130, 130)
+.accountbutton:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
 }
 
-.header {
-    line-height: 70px;
-   background-image: linear-gradient(to right top, #08dce5, #63e3e8, #8deaeb, #b0f1f0, #cef7f5, #d3f3f1, #d7efed, #dbebe9, #c8dcda, #b6cdca, #a4bebc, #92afad);
-}
-
-.my_account{
-   margin-left: 150px;
-}
-
-
-/* this is for large screen */
-@media (min-width: 768px) {
-
-    .nav__item{
-        margin-top: 14px;
-    }
-
-    .nav__item a {
-        font-family: Lato,sans-serif;
-        font-weight: 500;
-        font-size: 1.1rem;
-        text-decoration: none;
-        transition: .3s;
-        padding: 20px;
-    }
-
-.logo{
-    margin-left: 40px;
-}
-.nav_menu{
-    margin-left: 150px;
-}
-
-.my_account{
-    color: wheat;
-    border-radius: 40px;
-    background-image: linear-gradient(to right top, #293939, #2c3b3b, #2f3e3d, #334040, #364342, #324a47, #2d514b, #28584e, #18654d, #127145, #227d37, #3a871e);
-}
-
- }
-
-
-/* this is for small screen like mobile */
-@media (max-width: 768px) {
-
-    .my_account{
-        display: none;
-    }
-
-    .header {
-        height: 70px;
-    }
-
-    .logo{
-        margin-top: 20px;
-    }
-
-    .nav__item a {
-        font-family: Lato,sans-serif;
-        font-weight: 500;
-        font-size: 1.1rem;
-        text-decoration: none;
-        transition: .3s;
-        padding: 20px;
-    }
+.navitems:hover{
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.2)
 }
